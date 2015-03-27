@@ -1,0 +1,10 @@
+
+message image
+{
+	repeated int32 image_data = 1;
+	required int32 width = 2;
+	required int32 height = 3;
+	optional int32 stream_id = 4;
+	optional string input_name = 5;
+	required string timestamp = 6;
+}
